@@ -1,3 +1,19 @@
+import Analog_Clock from "../assets/ProjectImages/Analog_Clock.jpg";
+import calculator from "../assets/ProjectImages/calculator.jpg";
+import CountDown_Timer from "../assets/ProjectImages/CountDown_Timer.jpg";
+import ConvertorKMToMiles from "../assets/ProjectImages/Convertor_KM_to_Miles.jpg";
+import Digital_Clock from "../assets/ProjectImages/Digital_Clock.jpg";
+import DigitalClockWithDate from "../assets/ProjectImages/Digital_Clock with_Date.jpg";
+import DropDownSearchBar from "../assets/ProjectImages/DropDownSearchBar.jpg";
+import GenerateQRCode from "../assets/ProjectImages/Generate_QR_Code.jpg";
+import Note_App from "../assets/ProjectImages/Note_App.jpg";
+import PasswordGenerator from "../assets/ProjectImages/passwordGenerator.jpg";
+import RandomColor from "../assets/ProjectImages/RandomColor.jpg";
+import StopWatch from "../assets/ProjectImages/StopWatch.jpg";
+import TextFormatter from "../assets/ProjectImages/TextFormatter.jpg";
+import WordsCounter from "../assets/ProjectImages/WordsCounter.jpg";
+import QuizApp from "../assets/ProjectImages/QuizApp.png";
+
 export const HERO_CONTENT = `
 👋 Hello!  
 I’m a **Frontend Developer** passionate about creating modern, responsive, and user-friendly websites and web applications.  
@@ -22,40 +38,127 @@ When I’m not coding, you’ll find me exploring new tech trends, reading about
 🌟 My goal is to contribute to the tech world by building meaningful web solutions that solve real-world problems and enhance user satisfaction.  
 "`;
 
-export const PROJECTS = [
+export const JAVASCRIPT_PROJECTS = [
   {
-    title: "Liberty Card (E-Commerce Website)",
-    imgUrl: "path-to-your-image.jpg", // Replace with your project image URL
+    title: "Analog Clock",
+    imgUrl: Analog_Clock,
     description:
-      "Developing an e-commerce web application called Liberty Card using HTML, CSS, React.js, Redux, Redux-Saga, and REST APIs. The platform allows users to browse products, add them to the cart, and complete orders with a seamless and interactive user experience. The app focuses on providing a smooth shopping experience with state management and asynchronous API handling.",
-    technologies: "HTML, CSS, React.js, Redux, Redux-Saga, REST APIs, AntDesign, Tailwind CSS",
+      "An analog clock that displays the current time with clock hands for hours, minutes, and seconds. It updates in real-time.",
+    technologies: ["HTML", "CSS", "JavaScript"],
   },
-  {
-    title: "Weather App",
-    imgUrl: "path-to-weather-app-image.jpg", // Replace with your project image URL
-    description:
-      "Developed a responsive weather application using HTML, CSS, and React.js. The app provides real-time weather data for any city worldwide, integrating with a weather API to fetch and display current temperature, weather conditions, and forecasts. The interface is designed to be clean and user-friendly with responsive layouts.",
-    technologies: "HTML, CSS, React.js, REST API, Tailwind CSS",
-  },
+
   {
     title: "Calculator",
-    imgUrl: "path-to-calculator-image.jpg", // Replace with your project image URL
+    imgUrl: calculator,
     description:
-      "Developed a fully functional calculator using HTML, CSS, and JavaScript. The app performs basic arithmetic operations like addition, subtraction, multiplication, and division with a clean and user-friendly interface.",
-    technologies: "HTML, CSS, JavaScript",
+      "A fully functional calculator application with basic arithmetic operations like addition, subtraction, multiplication, and division.",
+    technologies: ["HTML", "CSS", "JavaScript"],
   },
   {
-    title: "Color Switcher",
-    imgUrl: "path-to-color-switcher-image.jpg", // Replace with your project image URL
+    title: "Count Down Timer",
+    imgUrl: CountDown_Timer,
     description:
-      "Developed a Color Switcher web application using HTML, CSS, and JavaScript. The app allows users to dynamically change the background colors of the webpage by clicking buttons. The transitions are smooth and interactive, providing a user-friendly experience with a clean design.",
-    technologies: "HTML, CSS, JavaScript",
+      "A countdown timer app that allows users to set a specific time and counts down to zero, alerting the user when the time is up.",
+    technologies: ["HTML", "CSS", "JavaScript"],
   },
   {
     title: "Digital Clock",
-    imgUrl: "path-to-digital-clock-image.jpg", // Replace with your project image URL
+    imgUrl: Digital_Clock,
     description:
-      "Developed a real-time digital clock using HTML, CSS, and JavaScript. The clock dynamically updates every second to display the current time, formatted in hours, minutes, and seconds. It features smooth transitions and a modern design.",
-    technologies: "HTML, CSS, JavaScript",
+      "A real-time digital clock displaying the current time, formatted in hours, minutes, and seconds. It automatically updates every second.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+  },
+  {
+    title: "Digital Clock with Date",
+    imgUrl: DigitalClockWithDate,
+    description:
+      "A real-time digital clock that also displays the current date along with the time, formatted in hours, minutes, seconds, and date.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+  },
+
+  {
+    title: "DropDown SearchBar",
+    imgUrl: DropDownSearchBar,
+    description:
+      "Developed a dynamic Dropdown Search Bar that filters and displays options based on user input. The app improves user experience by offering suggestions in real-time as the user types.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+  },
+
+  {
+    title: "KM to Miles Converter",
+    imgUrl: ConvertorKMToMiles,
+    description:
+      "A simple converter that allows users to convert kilometers into miles. The app provides real-time results as the user inputs the distance in kilometers.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+  },
+
+  {
+    title: "Note App",
+    imgUrl: Note_App,
+    description:
+      "A simple note-taking application where users can add, edit, and delete their notes. It allows users to keep track of their daily tasks and thoughts.",
+    technologies: ["HTML", "CSS", "JavaScript", "LocalStorage"],
+  },
+
+  {
+    title: "Password Generator",
+    imgUrl: PasswordGenerator,
+    description:
+      "A password generator that creates secure passwords of various lengths and complexities. Users can customize the strength of the password they want.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+  },
+
+  {
+    title: "Random Color Generator",
+    imgUrl: RandomColor,
+    description:
+      "A random color generator that generates a new color every time the user clicks a button, allowing users to experiment with different color schemes.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+  },
+
+  {
+    title: "Stop Watch",
+    imgUrl: StopWatch,
+    description:
+      "A simple stopwatch application that allows users to start, stop, and reset the timer, useful for timing events or activities.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+  },
+
+  {
+    title: "Text Formatter",
+    imgUrl: TextFormatter,
+    description:
+      "A simple text formatter that allows users to convert text to uppercase, lowercase, and capitalize the first letter of each word.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+  },
+
+  {
+    title: "Words Counter",
+    imgUrl: WordsCounter,
+    description:
+      "A tool to count the number of words and characters in a given text input. It helps users keep track of word limits for writing tasks, such as essays or articles.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+  },
+
+  {
+    title: "QR Code Generator",
+    imgUrl: GenerateQRCode,
+    description:
+      "A QR Code Generator app that converts a URL or any text input into a QR code, allowing users to easily share and scan the code using mobile devices.",
+    technologies: ["HTML", "CSS", "JavaScript", "QR Code API"],
+  },
+
+  {
+    title: "Quiz App",
+    imgUrl: QuizApp,
+    description:
+      "A fun quiz app that presents multiple-choice questions to users. After answering, users can view their score and the correct answers to the quiz.",
+    technologies: ["HTML", "CSS", "JavaScript"],
   },
 ];
+
+export const CONTACT = {
+  address: "Gopal Marg, Near Krishan Mandir, Budhlada, District: Mansa, State: Punjab, Pin: 151502",
+  phoneNo: "+91 9872932661",
+  email: "ashukaushik1007@gmail.com",
+};

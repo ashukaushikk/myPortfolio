@@ -1,4 +1,4 @@
-# My ProtFolio WebSite
+# My PortFolio WebSite
 
 ### Setup instruction
 
@@ -51,5 +51,6 @@
 npm install @reduxjs/toolkit react-redux react-router-dom react-icons react-chartjs-2 chart.js daisyui axios react-hot-toast antd react-typed
 npm install @tailwindcss/line-clamp --save-dev
 npm install react-hook-form --save 
+npm install motion
 
 ```
