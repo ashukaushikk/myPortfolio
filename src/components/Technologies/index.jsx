@@ -74,13 +74,6 @@ const Technologies = () => {
           <SiReduxsaga className="text-7xl text-purple-600" /> {/* Redux-Saga color */}
         </motion.div>
         <motion.div
-          variants={iconVariants(2.5)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4">
-          <FaGithub className="text-7xl text-gray-800" /> {/* GitHub color */}
-        </motion.div>
-        <motion.div
           variants={iconVariants(6)}
           initial="initial"
           animate="animate"

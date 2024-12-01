@@ -1,6 +1,6 @@
 import aboutPic from "../../assets/aboutPic.jpg";
 import { motion } from "framer-motion";
-import { ABOUT } from "../../constants";
+import AboutMe from "./contentAboutMe";
 
 function About() {
   return (
@@ -29,7 +29,7 @@ function About() {
           transition={{ duration: 1.5 }}
           className="w-full lg:w-1/2">
           <div className="flex justify-center lg:justify-start">
-            <p className="my-2 max-x-xl py-6">{ABOUT}</p>
+            <p className="my-2 max-x-xl py-6"><AboutMe/></p>
           </div>
         </motion.div>
       </div>
