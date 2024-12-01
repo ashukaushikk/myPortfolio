@@ -1,6 +1,6 @@
 import profilePic1 from "../../assets/profilePic1.png";
 import { motion } from "framer-motion";
-import  HighlightText  from "../HighlightText";
+import HighlightText from "../HighlightText";
 import Intro from "./intro";
 
 const container = (delay) => ({
@@ -15,7 +15,8 @@ const container = (delay) => ({
 function Hero() {
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap lg:items-center">
+        {/* left Section */}
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
             <motion.h1
@@ -37,17 +38,18 @@ function Hero() {
               initial="hidden"
               animate="visible"
               className="my-2 max-w-xl py-6 font-light tracking-tighter">
-              <Intro/>
+              <Intro />
             </motion.p>
           </div>
         </div>
-        <div className="w-full lg:w-1/2 lg:p-8">
+        {/* right section */}
+        <div className="w-full lg:w-1/2 ">
           <div className="flex justify-center">
             <motion.img
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
-              className="w-96 rounded-full"
+              className="w-96 lg:w-[28vw] rounded-full"
               src={profilePic1}
               alt="Ashwani Kumar"
             />

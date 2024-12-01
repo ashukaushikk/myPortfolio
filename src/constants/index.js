@@ -1,14 +1,14 @@
-import Analog_Clock from "../assets/ProjectImages/Analog_Clock.jpg";
+import Analog_Clock from "../assets/ProjectImages/Analog_Clock.png";
 import calculator from "../assets/ProjectImages/calculator.jpg";
 import CountDown_Timer from "../assets/ProjectImages/CountDown_Timer.jpg";
 import ConvertorKMToMiles from "../assets/ProjectImages/Convertor_KM_to_Miles.jpg";
 import Digital_Clock from "../assets/ProjectImages/Digital_Clock.jpg";
 import DigitalClockWithDate from "../assets/ProjectImages/Digital_Clock with_Date.jpg";
 import DropDownSearchBar from "../assets/ProjectImages/DropDownSearchBar.jpg";
-import GenerateQRCode from "../assets/ProjectImages/Generate_QR_Code.jpg";
+import GenerateQRCode from "../assets/ProjectImages/Generate_QR_Code.png";
 import LibertyCart from "../assets/ProjectImages/Liberty_Cart.jpg";
 import Note_App from "../assets/ProjectImages/Note_App.jpg";
-import PasswordGenerator from "../assets/ProjectImages/passwordGenerator.jpg";
+import PasswordGenerator from "../assets/ProjectImages/passwordGenerator.png";
 import RandomColor from "../assets/ProjectImages/RandomColor.jpg";
 import StopWatch from "../assets/ProjectImages/StopWatch.jpg";
 import TextFormatter from "../assets/ProjectImages/TextFormatter.jpg";
@@ -50,13 +50,41 @@ export const JAVASCRIPT_PROJECTS = [
       "The Weather App is a real-time weather forecasting application that provides users with accurate weather data based on their location or city search. The app features a clean and responsive UI, displaying essential weather details such as temperature, humidity, wind speed, and a 7-day forecast. It offers a seamless user experience by integrating with a weather API to fetch real-time data and display it dynamically. The app is built with modern technologies to ensure high performance and responsiveness across devices.",
     technologies: ["HTML", "TailwindCSS", "React.js", "Axios", "API Integration"],
   },
-  // Analog_Clock
+  // QR_Code_Generator
   {
-    title: "Analog Clock",
-    url: "https://github.com/ashukaushikk/JavaScript_Projects/tree/main/05_Analog%20Clock",
-    imgUrl: Analog_Clock,
+    title: "QR Code Generator",
+    url: "https://github.com/ashukaushikk/JavaScript_Projects/tree/main/14_QR%20Code%20Generator",
+    imgUrl: GenerateQRCode,
     description:
-      "An analog clock that displays the current time with clock hands for hours, minutes, and seconds. It updates in real-time.",
+      "A QR Code Generator app that converts a URL or any text input into a QR code, allowing users to easily share and scan the code using mobile devices.",
+    technologies: ["HTML", "CSS", "JavaScript", "QR Code API"],
+  },
+  // Note_App
+  {
+    title: "Note App",
+    url: "https://github.com/ashukaushikk/JavaScript_Projects/tree/main/10_Note-App",
+    imgUrl: Note_App,
+    description:
+      "A simple note-taking application where users can add, edit, and delete their notes. It allows users to keep track of their daily tasks and thoughts.",
+    technologies: ["HTML", "CSS", "JavaScript", "LocalStorage"],
+  },
+  // Password_Generator
+  {
+    title: "Password Generator",
+    url: "https://github.com/ashukaushikk/JavaScript_Projects/tree/main/13_Password%20Generator",
+    imgUrl: PasswordGenerator,
+    description:
+      "A password generator that creates secure passwords of various lengths and complexities. Users can customize the strength of the password they want.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+  },
+
+  // Quiz_App
+  {
+    title: "Quiz App",
+    url: "https://github.com/ashukaushikk/JavaScript_Projects/tree/main/15_Quiz%20App",
+    imgUrl: QuizApp,
+    description:
+      "A fun quiz app that presents multiple-choice questions to users. After answering, users can view their score and the correct answers to the quiz.",
     technologies: ["HTML", "CSS", "JavaScript"],
   },
   // Calculator
@@ -66,6 +94,33 @@ export const JAVASCRIPT_PROJECTS = [
     imgUrl: calculator,
     description:
       "A fully functional calculator application with basic arithmetic operations like addition, subtraction, multiplication, and division.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+  },
+  // Text_Formatter
+  {
+    title: "Text Formatter",
+    url: "https://github.com/ashukaushikk/JavaScript_Projects/tree/main/03_Text_Formatter",
+    imgUrl: TextFormatter,
+    description:
+      "A simple text formatter that allows users to convert text to uppercase, lowercase, and capitalize the first letter of each word.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+  },
+  // Words_Counter
+  {
+    title: "Words Counter",
+    url: "https://github.com/ashukaushikk/JavaScript_Projects/tree/main/02_Words_Counter",
+    imgUrl: WordsCounter,
+    description:
+      "A tool to count the number of words and characters in a given text input. It helps users keep track of word limits for writing tasks, such as essays or articles.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+  },
+  // Analog_Clock
+  {
+    title: "Analog Clock",
+    url: "https://github.com/ashukaushikk/JavaScript_Projects/tree/main/05_Analog%20Clock",
+    imgUrl: Analog_Clock,
+    description:
+      "An analog clock that displays the current time with clock hands for hours, minutes, and seconds. It updates in real-time.",
     technologies: ["HTML", "CSS", "JavaScript"],
   },
   // Count_Down_Timer
@@ -113,24 +168,6 @@ export const JAVASCRIPT_PROJECTS = [
       "A simple converter that allows users to convert kilometers into miles. The app provides real-time results as the user inputs the distance in kilometers.",
     technologies: ["HTML", "CSS", "JavaScript"],
   },
-  // Note_App
-  {
-    title: "Note App",
-    url: "https://github.com/ashukaushikk/JavaScript_Projects/tree/main/10_Note-App",
-    imgUrl: Note_App,
-    description:
-      "A simple note-taking application where users can add, edit, and delete their notes. It allows users to keep track of their daily tasks and thoughts.",
-    technologies: ["HTML", "CSS", "JavaScript", "LocalStorage"],
-  },
-  // Password_Generator
-  {
-    title: "Password Generator",
-    url: "https://github.com/ashukaushikk/JavaScript_Projects/tree/main/13_Password%20Generator",
-    imgUrl: PasswordGenerator,
-    description:
-      "A password generator that creates secure passwords of various lengths and complexities. Users can customize the strength of the password they want.",
-    technologies: ["HTML", "CSS", "JavaScript"],
-  },
   // Random_Color_Generator
   {
     title: "Random Color Generator",
@@ -149,46 +186,12 @@ export const JAVASCRIPT_PROJECTS = [
       "A simple stopwatch application that allows users to start, stop, and reset the timer, useful for timing events or activities.",
     technologies: ["HTML", "CSS", "JavaScript"],
   },
-  // Text_Formatter
-  {
-    title: "Text Formatter",
-    url: "https://github.com/ashukaushikk/JavaScript_Projects/tree/main/03_Text_Formatter",
-    imgUrl: TextFormatter,
-    description:
-      "A simple text formatter that allows users to convert text to uppercase, lowercase, and capitalize the first letter of each word.",
-    technologies: ["HTML", "CSS", "JavaScript"],
-  },
-  // Words_Counter
-  {
-    title: "Words Counter",
-    url: "https://github.com/ashukaushikk/JavaScript_Projects/tree/main/02_Words_Counter",
-    imgUrl: WordsCounter,
-    description:
-      "A tool to count the number of words and characters in a given text input. It helps users keep track of word limits for writing tasks, such as essays or articles.",
-    technologies: ["HTML", "CSS", "JavaScript"],
-  },
-  // QR_Code_Generator
-  {
-    title: "QR Code Generator",
-    url: "https://github.com/ashukaushikk/JavaScript_Projects/tree/main/14_QR%20Code%20Generator",
-    imgUrl: GenerateQRCode,
-    description:
-      "A QR Code Generator app that converts a URL or any text input into a QR code, allowing users to easily share and scan the code using mobile devices.",
-    technologies: ["HTML", "CSS", "JavaScript", "QR Code API"],
-  },
-  // Quiz_App
-  {
-    title: "Quiz App",
-    url: "https://github.com/ashukaushikk/JavaScript_Projects/tree/main/15_Quiz%20App",
-    imgUrl: QuizApp,
-    description:
-      "A fun quiz app that presents multiple-choice questions to users. After answering, users can view their score and the correct answers to the quiz.",
-    technologies: ["HTML", "CSS", "JavaScript"],
-  },
 ];
 
 export const CONTACT = {
-  address: "Gopal Marg, Near Krishan Mandir, Budhlada, District: Mansa, State: Punjab, Pin: 151502",
-  phoneNo: "+91 9872932661",
+  // address: "Gopal Marg, Near Krishan Mandir, Budhlada, District: Mansa, State: Punjab, Pin: 151502",
+  phoneNo: "📞 +91 9872932661",
   email: "ashukaushik1007@gmail.com",
+  message:
+    "Feel free to reach out for collaboration, project inquiries, or just to connect. I’m always open to meaningful conversations!",
 };

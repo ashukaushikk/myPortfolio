@@ -1,13 +1,13 @@
-import { FaGithub, FaInstagram, FaLinkedin, FaTwitter, FaWhatsapp } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import logo from "../../assets/logo.png";
 
 function Navbar() {
   return (
     <nav className="navbar mb-10 flex items-center justify-between py-2">
       <div className="flex flex-shrink-0 items-center">
-        <img className="mx-2 w-12" src={logo} alt="" />
+        <img className="w-24" src={logo} alt="" />
       </div>
-      <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+      <div className="m-2 flex items-center justify-center gap-4 text-3xl">
         {/* LinkedIn */}
         <a
           className="transform transition-transform duration-300 hover:scale-125 text-[#0077B5] drop-shadow-[0_4px_4px_rgba(0,119,181,0.5)]"

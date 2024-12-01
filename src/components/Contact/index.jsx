@@ -1,5 +1,5 @@
-import { CONTACT } from "../../constants/index";
 import { motion } from "framer-motion";
+import ContactDetails from "./contactDetail";
 
 function Contact() {
   return (
@@ -17,10 +17,9 @@ function Contact() {
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 1 }}
           className="my-4">
-          {" "}
-          {CONTACT.address}
+          <ContactDetails/>
         </motion.p>
-        <motion.p
+        {/* <motion.p
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 100 }}
           transition={{ duration: 1 }}
@@ -30,7 +29,7 @@ function Contact() {
         </motion.p>
         <a href="#" className="border-b">
           {CONTACT.email}
-        </a>
+        </a> */}
       </div>
     </div>
   );
