@@ -20,7 +20,7 @@ function About() {
           transition={{ duration: 1.5 }}
           className="w-full lg:w-1/2 lg:p-8">
           <div className="flex items-center justify-center">
-            <img className="rounded-2xl shadow-2xl shadow-sky-500" src={aboutPic} alt="about" />
+            <img className="rounded-2xl shadow-lg  shadow-sky-500" src={aboutPic} alt="about" />
           </div>
         </motion.div>
         <motion.div
